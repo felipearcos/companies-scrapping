@@ -8,7 +8,7 @@ import csv
 import sys
 
 #Request URL
-page = requests.get("sys.argv[0]")
+page = requests.get(sys.argv[1])
 
 #Fetch webpage
 soup = BeautifulSoup(page.content,"html.parser")
