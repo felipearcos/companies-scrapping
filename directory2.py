@@ -5,10 +5,10 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-import sys
+
 
 #Request URL
-page = requests.get("sys.argv[0]")
+page = requests.get("URL Directorio 1")
 
 #Fetch webpage
 soup = BeautifulSoup(page.content,"html.parser")
